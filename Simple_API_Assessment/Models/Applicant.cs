@@ -1,0 +1,10 @@
+﻿namespace Simple_API_Assessment.Models
+{
+    public class Applicant
+    {
+        public int ApplicantId { get; set; }
+        public string Name { get; set; }
+
+        public ICollection<Skill> Skills { get; set; }
+    }
+}
